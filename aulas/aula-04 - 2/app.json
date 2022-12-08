@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "aula-05",
-    "slug": "snack-2fc81f38-931c-4345-8ed2-6ee38588a3cc",
+    "slug": "snack-c28f628f-b1b4-403a-939e-3314ef1780e3",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,7 +28,6 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "description": "CSS Externo e múltiplos Componentes"
+    }
   }
 }

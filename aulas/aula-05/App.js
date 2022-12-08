@@ -1,27 +1,21 @@
-import { SafeAreaView, View, Text, StyleSheet } from 'react-native'
+import { SafeAreaView, StyleSheet} from 'react-native'
 
-import Conteudo from './components/Conteudo'
+import Comp1, {Comp2, Comp3} from './components/Mult'
 
-export default() => (
-  <View style={style.body}>
-    <View style={style.container}>
-      <Conteudo/>
-    </View>
-  </View>  
+export default () => (
+  <SafeAreaView style={style.App}>
+    <Comp1/>
+    <Comp2/>
+    <Comp3/>
+  </SafeAreaView>
 )
 
 const style = StyleSheet.create(
   {
-    container:{
-      justifyContent:'center',
-      display:'flex',
-      alignItems:'center'
-    },
-    body:{
-      backgroundColor:'black',
-      color:'white',
-      height:'100%'
+  App:{
+    flex: 1,
+    justifyContent: 'center',
+    alignItems:'center'
     }
   }
 )
-
