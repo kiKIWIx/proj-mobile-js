@@ -1,18 +1,20 @@
 import * as React from 'react';
-import {SafeareaView, StyleSheet } from 'react-native';
+import { SafeAreaView, StyleSheet } from 'react-native';
 import Diferenciar from './components/Diferenciar'
 
-export default () =>(
-    <SafeareaView style={styles.App}>
-      <Diferenciar/>
-    </SafeareaView>
-  );
+//Difenciando Android de IOS
+export default()=>(
+  <SafeAreaView style={styles.App}>
+    <Diferenciar/>
+  </SafeAreaView>
+
+);
 
 const styles = StyleSheet.create({
-  App:{
-   flex:1,
-   justifyContent:"center",
-   alignItems:'center',
-   backgroundColor:"#000"
- }
-});
+App:{
+  flex:1,
+  justifyContent:"center",
+  alignItems:'center',
+  backgroundColor:"#000"
+}
+})
